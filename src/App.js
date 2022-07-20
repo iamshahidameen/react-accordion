@@ -10,7 +10,6 @@ function App() {
           <section className="info">
             {data.map((singleQuestion) => {
               console.log(singleQuestion);
-
               return <Question key={singleQuestion.id} {...singleQuestion} />;
             })}
           </section>
