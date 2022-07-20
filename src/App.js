@@ -9,7 +9,6 @@ function App() {
           <h3>questions and answers about login</h3>
           <section className="info">
             {data.map((singleQuestion) => {
-              console.log(singleQuestion);
               return <Question key={singleQuestion.id} {...singleQuestion} />;
             })}
           </section>
